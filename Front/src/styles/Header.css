@@ -1,0 +1,46 @@
+header {
+  height: 100px;
+  width: 100%;
+  min-width: 315px;
+  background-color: bisque;
+  border-radius: 5px;
+}
+
+.Composant {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5%;
+  margin-left: 1%;
+  padding-top:10px;
+}
+
+.logo {
+  height: 75px;
+  width: auto;
+  fill: #00353F !important;
+}
+
+.list {
+  list-style-type:none;
+}
+
+.list li {
+  background-color: beige;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0px 0px 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+.list li:hover {
+  background-color: rgb(255, 255, 190);
+  color: rgb(0, 0, 0);
+}
+
